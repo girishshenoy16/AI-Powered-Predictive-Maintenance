@@ -25,8 +25,8 @@ coverage.xml
 .idea/
 .vscode/
 
-# Ignore data folders (raw and processed data)
-data
+# Ignore raw data folders (keeps the repo light by ignoring large raw text files)
+data/raw/
 
 # Agent scratchpads / tracking
 implementation_plan.md
